@@ -10,9 +10,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 brew install --HEAD concourse/tap/fly
 brew install ag
 brew install autojump
-brew install aws-cli
 brew install awscli
-brew install awsebcli
 brew install base64
 brew install ccat
 brew install certbot
@@ -29,15 +27,11 @@ brew install git
 brew install gpgsuite
 brew install graphviz
 brew install hub
-brew install intellij-idea
 brew install jid
 brew install jq
 brew install jump
-brew install kubernetes-helm
 brew install libsass
 brew install macvim
-brew install mongodb
-brew install mosh
 brew install mysql
 brew install nvm
 brew install openvpn
@@ -54,63 +48,37 @@ brew install tfenv
 brew install tflint
 brew install tmux
 brew install tree
-brew install vagrant
 brew install watch
 brew install wget
 
 nvm install node
 tfenv install 0.11.2
 
-brew cask install Colloquy
-brew cask install amazon-chime
-brew cask install avibrazil-rdm
-brew cask install burp-suite
 brew cask install caffeine
 brew cask install charles
 brew cask install chicken
 brew cask install chrome
 brew cask install cyberduck
 brew cask install docker
-brew cask install dropboc
 brew cask install dropbox
-brew cask install eclipse-ide
-brew cask install eclipse-installer
 brew cask install evernote
 brew cask install firefox
-brew cask install fuze
-brew cask install ganttproject
-brew cask install gimp
 brew cask install google-chrome
 brew cask install gpgsuite
 brew cask install gpgtools
-brew cask install intellij-idea
-brew cask install intellij-idea-ce
 brew cask install iterm2
 brew cask install keyboard-cleaner
-brew cask install limechat
-brew cask install nordvpn
 brew cask install numi
 brew cask install postman
-brew cask install qbittorrent
-brew cask install rdm
-brew cask install screenhero
 brew cask install slack
-brew cask install soapui
 brew cask install spectacle
-brew cask install spotify
-brew cask install sublime
 brew cask install sublime-text
 brew cask install teamviewer
-brew cask install textual
 brew cask install the-unarchiver
 brew cask install tunnelblick
 brew cask install vagrant
 brew cask install virtualbox
-brew cask install visual-studio-code
 brew cask install webstorm
-brew cask install whatsapp
-brew cask install wireshark
-brew cask install xmind
 
 dockutil --remove all
 
